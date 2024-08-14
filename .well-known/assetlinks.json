@@ -13,7 +13,7 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
-    "package_name": "com.qptmaths.wordconnect.en",
+    "package_name": "com.qptmaths.wordconnect.EN",
     "sha256_cert_fingerprints":
     ["4D:76:44:A9:69:49:CB:7A:DC:8C:35:33:BF:4A:78:2A:94:76:F9:AB:7D:0C:B4:23:7D:75:A2:0D:D3:A4:EF:EF",
       "CE:42:D1:45:F3:B8:4E:FF:C8:D5:06:37:0D:08:8C:20:CE:D2:00:79:72:BC:5B:A0:D4:4A:69:0D:B7:08:BF:25",
