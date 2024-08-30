@@ -3,6 +3,9 @@ theme: jekyll-theme-cayman
 title: QPTmaths
 description: Soporte de deeplinks para las aplicaciones de QPTmaths
 
+# Base URL configuration
+url: "https://serlou.github.io"
+
 # Files/directories to include
 include: 
   - ".well-known"
