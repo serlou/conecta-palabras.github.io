@@ -12,11 +12,11 @@ defaults:
   - scope:
       path: "es"
     values:
-      layout: "blank"
+      layout: "sitemap"
   - scope:
       path: "en"
     values:
-      layout: "blank"
+      layout: "sitemap"
 
 # You can add any other configurations here, such as:
 # google_analytics: Your GA Tracking ID
