@@ -1,5 +1,7 @@
 # Theme configuration
 theme: jekyll-theme-cayman
+title: QPTmaths
+description: Soporte de deeplinks para las aplicaciones de QPTmaths
 
 # Files/directories to include
 include: 
@@ -34,6 +36,4 @@ defaults:
       redirect_to: "" # Empty string means no redirect
 
 # You can add any other configurations here, such as:
-# title: Your Site Title
-# description: Your site description
 # google_analytics: Your GA Tracking ID
