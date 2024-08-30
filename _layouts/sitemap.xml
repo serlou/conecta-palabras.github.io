@@ -7,7 +7,7 @@ layout: null
     {% if page.url contains 'es/' or page.url contains 'en/' %}
     <url>
       <loc>{{ site.url }}{{ page.url | replace:'index.html','' }}</loc>
-      <lastmod>{{ page.date | xmlschema }}</lastmod>
+      <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
