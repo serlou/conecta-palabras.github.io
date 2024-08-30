@@ -12,12 +12,6 @@ include:
 plugins:
   - jekyll-redirect-from
 
-# Collections
-collections:
-  es:
-    output: true
-    permalink: /es/:path/
-
 # Default configurations
 defaults:
   # Default redirect for most pages
@@ -41,14 +35,21 @@ defaults:
     values:
       redirect_to: "" # Empty string means no redirect
 
-  # Configuration for Spanish pages
+  # Configuration for 'es' paths
   -
     scope:
-      path: ""
-      type: "es"
+      path: "es"
     values:
       layout: "empty"
-      redirect_to: "" # No redirect for Spanish pages
+      redirect_to: "" # No redirect for 'es' paths
+
+  # Configuration for 'es' paths
+  -
+    scope:
+      path: "en"
+    values:
+      layout: "empty"
+      redirect_to: "" # No redirect for 'es' paths
 
 # You can add any other configurations here, such as:
 # google_analytics: Your GA Tracking ID
