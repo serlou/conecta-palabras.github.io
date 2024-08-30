@@ -1,3 +1,39 @@
+# Theme configuration
 theme: jekyll-theme-cayman
 
-include: [".well-known","google73bd32ef1e25e1a9"]
+# Files/directories to include
+include: 
+  - ".well-known"
+  - "google73bd32ef1e25e1a9"
+
+# Plugins
+plugins:
+  - jekyll-redirect-from
+
+# Default configurations
+defaults:
+  # Default redirect for most pages
+  -
+    scope:
+      path: "" # This means all files in the project
+    values:
+      redirect_to: "https://serlou.github.io/"
+  
+  # Exception for .well-known directory
+  -
+    scope:
+      path: ".well-known"
+    values:
+      redirect_to: "" # Empty string means no redirect
+  
+  # Exception for google verification file
+  -
+    scope:
+      path: "google73bd32ef1e25e1a9"
+    values:
+      redirect_to: "" # Empty string means no redirect
+
+# You can add any other configurations here, such as:
+# title: Your Site Title
+# description: Your site description
+# google_analytics: Your GA Tracking ID
